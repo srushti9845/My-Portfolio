@@ -1168,4 +1168,27 @@ footer p {
         width: 200px;
         height: 245px;
     }
+    .social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.social-links a {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    background: #4f46e5;
+    transition: 0.3s;
+}
+
+.social-links a:hover {
+    transform: translateY(-2px);
+    opacity: 0.85;
+}
 }
